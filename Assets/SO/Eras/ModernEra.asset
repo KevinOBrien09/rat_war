@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee1f423ae701c6a40b7e9f6a1365901b, type: 3}
+  m_Name: ModernEra
+  m_EditorClassIdentifier: 
+  Rats:
+  - {fileID: 11400000, guid: 2e03d8f6d5cd9174cab051903b0917c7, type: 2}
+  - {fileID: 11400000, guid: 9323d874bb5edfb40b011ffafe33fcb5, type: 2}
+  - {fileID: 11400000, guid: dae045a61314b154099babe6c9254320, type: 2}
+  - {fileID: 11400000, guid: 9c378c7ec15d7214985ce8b74e13503b, type: 2}
+  Turrets:
+  - {fileID: 11400000, guid: 3efae90323d13544fbe042976a598513, type: 2}

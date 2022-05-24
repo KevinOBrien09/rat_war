@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a026f5d145b3cb84db9c2bc4771becde, type: 3}
+  m_Name: JumpingRat
+  m_EditorClassIdentifier: 
+  data:
+    Name_: Jumping Mouse
+    ttdesc: 'A vile beast ready to pounce.
+
+      Health: 25 Dodge: 0%
+
+      Damage:
+      5-10 Crit: 0%
+
+'
+    sprite_:
+    - {fileID: 21300000, guid: b515f10c70f05fd45978c9b6ddc2ba38, type: 3}
+    - {fileID: 21300000, guid: c18344b87b2d4ca43beb6845d6395dcd, type: 3}
+    MaxHealth: 25
+    CurrentHealth: 25
+    DamageLower: 5
+    DamageUpper: 10
+    Crit: -1
+    Dodge: -1
+    Cost: 250
+    buildTime: 2
+    unitRange: 1.1
+    baseRange: 0.66
+    HPBarHeight: 1.25
+    ColliderSize: {x: 1.4, y: 1, z: 1}
+    ColliderCenter: {x: 0, y: 0, z: 0}
+    HitSolid: []
+    Squeal:
+    - {fileID: 8300000, guid: c2e2c442bfdbcf944b2f4cdb9c26c7f9, type: 3}
+    - {fileID: 8300000, guid: 455ff9458a5d26943a3f08f5656583e4, type: 3}
+    Die:
+    - {fileID: 8300000, guid: 33d922716495dfd46a82e5fdeb902abe, type: 3}
+    hitSFX:
+    - {fileID: 8300000, guid: 012bbc0c8eaf83744b69a2190df725be, type: 3}
+    UIIcon: {fileID: 21300000, guid: 69263f498f30d15488f7eb3ab943ebc7, type: 3}
+    class_: 2
